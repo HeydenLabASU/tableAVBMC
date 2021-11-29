@@ -1,0 +1,49 @@
+#restart (yes=1,no=0)
+0
+#xyz file of previous run (only read if restart=1)
+can use this later
+#number of distinct particle types
+1
+#provide the number of particles for each particle type
+#number of particles for type 1
+1000
+#concentration in mol/L --> this a total concentration for all particle types
+0.004
+#for example, with a molar mass of 25429.9 g/mol this corresponds to 100 mg/ml
+#simulation temperature in Kelvin
+290
+#AVBMC bias
+0.5
+#min distance of in region in Angstrom
+20.0
+#max distance for in region in Angstrom
+50.0
+#exclusion distance
+20.0
+#cutoff distance for interaction
+150.0
+#Monte Carlo step size in Angstrom
+100.0
+#number of MC cycles
+1000
+#ratio of AVBMC moves
+0.5
+#print frequency
+10
+#xyz output file
+output.xyz
+#file(s) with tabulated potential for interactions between all particle types
+#distance in Angstrom
+#potential of mean force in kJ/mol
+#example for 3 particle types:
+#file name with tabulated potential between particle types 1 and 1
+#file name with tabulated potential between particle types 1 and 2
+#file name with tabulated potential between particle types 1 and 3
+#file name with tabulated potential between particle types 2 and 2
+#file name with tabulated potential between particle types 2 and 3
+#file name with tabulated potential between particle types 3 and 3
+#However, here we just use one particle type
+#file name with tabulated potential between particle types 1 and 1
+pmf-290K.dat
+#max memory (bytes)
+2.0e9
