@@ -3,6 +3,7 @@ Aggregation-Volume-Bias Monte Carlo simulation with tabulated potentials
 
 This single file program can be compiled with any ANSI C compiler, 
 e.g. on most UNIX platforms via:
+
   gcc tableAVBMC.c -o tableAVBMC
   
 The purpose of this program is to run an agregation-volume-bias Monte Carlo (AVBMC) 
@@ -31,6 +32,7 @@ the program.
 
 If the program (tableAVBMC) and the template input file (template.input) are 
 located in the same directory, simple run the program on the command line with:
+
 ./tableAVBMC template.input
 
 For details on the AVBMC algortithm(s), pleasr read and cite these articles:
