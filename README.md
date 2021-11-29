@@ -4,7 +4,7 @@ Aggregation-Volume-Bias Monte Carlo simulation with tabulated potentials
 This single file program can be compiled with any ANSI C compiler, 
 e.g. on most UNIX platforms via:
 
-  gcc tableAVBMC.c -o tableAVBMC
+gcc tableAVBMC.c -o tableAVBMC
   
 The purpose of this program is to run an agregation-volume-bias Monte Carlo (AVBMC) 
 simulation in the canonical ensemble with interacting classical particles in 
