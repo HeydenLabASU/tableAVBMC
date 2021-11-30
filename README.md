@@ -1,6 +1,10 @@
 # tableAVBMC
 Aggregation-Volume-Bias Monte Carlo simulation with tabulated potentials
 
+The author is grateful for financial support by the National Science Foundation.
+Award #1844327: RoL: EAGER: DESYN-C3 
+Membraneless organelles by design: a biomimetic approach
+
 This single file program can be compiled with any ANSI C compiler, 
 e.g. on most UNIX platforms via:
 
@@ -34,6 +38,11 @@ If the program (tableAVBMC) and the template input file (template.input) are
 located in the same directory, simple run the program on the command line with:
 
 ./tableAVBMC template.input
+
+The program is best suited for simulations of aggregating systems, i.e. systems with 
+a comparably low overall solution (what this means depends on the particle size) in 
+which aggregation is expected. The AVBMC algorithm is specifically well-suited for 
+such cases.
 
 For details on the AVBMC algortithm(s), pleasr read and cite these articles:
 References:
